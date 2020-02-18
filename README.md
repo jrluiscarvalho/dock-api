@@ -1,12 +1,12 @@
 # dock-api
 
-## Rotas
+# Rotas
 
-# Pessoas
+## Pessoas
 
  * /person/ - POST
 
-# Contas
+## Contas
 
 * /account/ - POST
 * /account/draft/ - PUT
@@ -14,23 +14,23 @@
 * /account/status/ - PUT
 * /account/balance/{idAccount} - GET
 
-# Transações
+## Transações
 
 * /transaction/ - POST
 * /transaction/{idAccount}/{startDate}/{endDate}/ - GET
 * /transaction/{idAccount}/ - GET
 
 
-## Descrição
+# Descrição
 
 A Api tem como finalidade a inserção de pessoas, contas e transações (nessa ordem). 
 
-## Caracteristicas
+# Caracteristicas
 
 * Foi desenvolvido com node, usando express, ORM Sequelize e banco de dados Postgres.
 
 * Para usar a api basta usar o comando 'npm i & npm start'.
-
+
 * Possui swagger no endpoit 'localhost:3000/api-docs'.
 
 * Existe uma collection na raiz do projeto para inserir no Postman ou Insomnia para usar a Api.
