@@ -41,4 +41,4 @@ A Api tem como finalidade a inserção de pessoas, contas e transações (nessa 
 
 * Para executar os testes basta estar na raiz do projeto e usar o comando 'npm run test''.
 
-* As exceções foram tratadas para dar um feedback amigavel ao client. Foi utilizado Sentry para controle de possiveis erros não previstos. O sentry capitura esses erros e o mostra em sua interface (sentry.io), e pode notificar a equipe com emails, mensagens no slack e algumas opções a mais.
+* As exceções foram tratadas para dar um feedback amigavel ao client. Foi utilizado Sentry para controle de possiveis erros não previstos. O sentry captura esses erros e o mostra em sua interface (sentry.io), e pode notificar a equipe com emails, mensagens no slack e algumas opções a mais.
