@@ -1,0 +1,11 @@
+version: "3.1"
+
+services:
+  db:
+    image: postgres
+    environment:
+      POSTGRES_DB: dock
+      POSTGRES_USER: luis
+      POSTGRES_PASSWORD: luis1234
+    ports:
+      - 4040:5432
